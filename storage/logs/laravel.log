@@ -1,8 +1,0 @@
-[2023-11-24 20:10:30] local.ERROR: Unknown or bad timezone (Asia/JP) {"exception":"[object] (Carbon\\Exceptions\\InvalidTimeZoneException(code: 0): Unknown or bad timezone (Asia/JP) at /Applications/XAMPP/xamppfiles/htdocs/laravel-basic-kadai/vendor/nesbot/carbon/src/Carbon/CarbonTimeZone.php:109)
-[stacktrace]
-#0 /Applications/XAMPP/xamppfiles/htdocs/laravel-basic-kadai/vendor/nesbot/carbon/src/Carbon/Traits/Date.php(626): Carbon\\CarbonTimeZone::instance('Asia/JP', NULL)
-#1 /Applications/XAMPP/xamppfiles/htdocs/laravel-basic-kadai/vendor/nesbot/carbon/src/Carbon/Traits/Date.php(1631): Carbon\\Carbon::safeCreateDateTimeZone('Asia/JP')
-#2 /Applications/XAMPP/xamppfiles/htdocs/laravel-basic-kadai/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(221): Carbon\\Carbon->setTimezone('Asia/JP')
-#3 /Applications/XAMPP/xamppfiles/htdocs/laravel-basic-kadai/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
-#4 {main}
-"} 
